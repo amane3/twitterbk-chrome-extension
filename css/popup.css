@@ -1,0 +1,60 @@
+body{
+    width:500px;
+    height:700px;
+    text-align:center;
+    margin:0 auto;
+}
+
+li{
+  list-style:none;
+  padding : 0;
+}
+
+.twitter-tweet{
+  padding:0 !important;
+  margin:0 !important;
+}
+
+.cliped-tweets{
+  padding:0;
+  margin:0;
+}
+
+.deletebtn{
+  position:relative;
+  background-color:red;
+  color:white;
+  z-index: 2;
+  width:25px;
+  height:25px;
+  border:2px white solid;
+  border-radius: 5px;
+  text-align:center;
+  padding:0;
+  cursor:pointer;
+  opacity:0.1;
+  bottom:-27px;
+}
+.deletebtn:hover{
+  opacity:1;
+}
+
+
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, .1);
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 50, .5);
+  border-radius: 10px;
+  box-shadow:0 0 0 1px rgba(255, 255, 255, .3);
+}
